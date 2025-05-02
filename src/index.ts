@@ -17,7 +17,7 @@ async function main() {
   await server.connect(transport);
 
   // biome-ignore lint/suspicious/noConsole: <explanation>
-  console.error(`Running ${name}@${version} MCP Server on stdio`);
+  console.error(`Running ${name}@${version} MCP Server on studio`);
 }
 
 main().catch((error) => {
